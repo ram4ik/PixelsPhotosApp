@@ -22,6 +22,7 @@
 		95379F9425FA0FDC00DB609F /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9325FA0FDC00DB609F /* APIError.swift */; };
 		95379F9725FA10CD00DB609F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9625FA10CD00DB609F /* APIClient.swift */; };
 		95379F9A25FA1A5C00DB609F /* PexelsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9925FA1A5C00DB609F /* PexelsClient.swift */; };
+		95379F9D25FA23F900DB609F /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9C25FA23F900DB609F /* PhotoListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		95379F9325FA0FDC00DB609F /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		95379F9625FA10CD00DB609F /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		95379F9925FA1A5C00DB609F /* PexelsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PexelsClient.swift; sourceTree = "<group>"; };
+		95379F9C25FA23F900DB609F /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		95379F7625F9FFAC00DB609F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				95379F9C25FA23F900DB609F /* PhotoListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				95379F8225FA048000DB609F /* Photo.swift in Sources */,
 				95379F9425FA0FDC00DB609F /* APIError.swift in Sources */,
 				95379F9725FA10CD00DB609F /* APIClient.swift in Sources */,
+				95379F9D25FA23F900DB609F /* PhotoListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
