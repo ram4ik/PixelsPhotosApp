@@ -23,6 +23,8 @@
 		95379F9725FA10CD00DB609F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9625FA10CD00DB609F /* APIClient.swift */; };
 		95379F9A25FA1A5C00DB609F /* PexelsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9925FA1A5C00DB609F /* PexelsClient.swift */; };
 		95379F9D25FA23F900DB609F /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9C25FA23F900DB609F /* PhotoListViewModel.swift */; };
+		95379FA025FA291C00DB609F /* PhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9F25FA291C00DB609F /* PhotoListView.swift */; };
+		95379FA325FA2C8A00DB609F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379FA225FA2C8A00DB609F /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		95379F9625FA10CD00DB609F /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		95379F9925FA1A5C00DB609F /* PexelsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PexelsClient.swift; sourceTree = "<group>"; };
 		95379F9C25FA23F900DB609F /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
+		95379F9F25FA291C00DB609F /* PhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListView.swift; sourceTree = "<group>"; };
+		95379FA225FA2C8A00DB609F /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		95379F7425F9FF9D00DB609F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				95379F9F25FA291C00DB609F /* PhotoListView.swift */,
+				95379FA225FA2C8A00DB609F /* PhotoCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,6 +224,7 @@
 				95379F5D25F9FE3C00DB609F /* AppDelegate.swift in Sources */,
 				95379F9A25FA1A5C00DB609F /* PexelsClient.swift in Sources */,
 				95379F7F25FA042D00DB609F /* PhotoFeedResult.swift in Sources */,
+				95379FA325FA2C8A00DB609F /* PhotoCell.swift in Sources */,
 				95379F5F25F9FE3C00DB609F /* SceneDelegate.swift in Sources */,
 				95379F8525FA085700DB609F /* PhotoSize.swift in Sources */,
 				95379F7B25FA006C00DB609F /* HomeViewController.swift in Sources */,
@@ -228,6 +235,7 @@
 				95379F9425FA0FDC00DB609F /* APIError.swift in Sources */,
 				95379F9725FA10CD00DB609F /* APIClient.swift in Sources */,
 				95379F9D25FA23F900DB609F /* PhotoListViewModel.swift in Sources */,
+				95379FA025FA291C00DB609F /* PhotoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
