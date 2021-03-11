@@ -25,6 +25,7 @@
 		95379F9D25FA23F900DB609F /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9C25FA23F900DB609F /* PhotoListViewModel.swift */; };
 		95379FA025FA291C00DB609F /* PhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9F25FA291C00DB609F /* PhotoListView.swift */; };
 		95379FA325FA2C8A00DB609F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379FA225FA2C8A00DB609F /* PhotoCell.swift */; };
+		95379FA625FA351300DB609F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379FA525FA351300DB609F /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		95379F9C25FA23F900DB609F /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
 		95379F9F25FA291C00DB609F /* PhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListView.swift; sourceTree = "<group>"; };
 		95379FA225FA2C8A00DB609F /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		95379FA525FA351300DB609F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				95379F9325FA0FDC00DB609F /* APIError.swift */,
 				95379F9625FA10CD00DB609F /* APIClient.swift */,
 				95379F9925FA1A5C00DB609F /* PexelsClient.swift */,
+				95379FA525FA351300DB609F /* ImageLoader.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				95379F9125FA0F7500DB609F /* Result.swift in Sources */,
 				95379F8E25FA0BB700DB609F /* PhotoFeed.swift in Sources */,
 				95379F8B25FA0A9200DB609F /* API.swift in Sources */,
+				95379FA625FA351300DB609F /* ImageLoader.swift in Sources */,
 				95379F8225FA048000DB609F /* Photo.swift in Sources */,
 				95379F9425FA0FDC00DB609F /* APIError.swift in Sources */,
 				95379F9725FA10CD00DB609F /* APIClient.swift in Sources */,

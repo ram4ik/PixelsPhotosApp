@@ -12,6 +12,8 @@ protocol PhotoListItemDelegate: class {
 }
 
 class PhotoListView: UIView {
+    let CELL_ID = "cellID"
+    
     weak var delegate: PhotoListItemDelegate?
     
     lazy var vm: PhotoListViewModel = {
@@ -25,7 +27,7 @@ class PhotoListView: UIView {
         v.translatesAutoresizingMaskIntoConstraints = false
         v.delegate = self
         v.dataSource = self
-        v.register(UITableViewCell.self, forCellReuseIdentifier: "cellID")
+        v.register(PhotoCell.self, forCellReuseIdentifier: CELL_ID)
         return v
     }()
     
@@ -76,6 +78,23 @@ extension PhotoListView: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: CELL_ID, for: indexPath) as? PhotoCell
+        let photo = vm.getPhoto(at: indexPath.row)
+        cell?.photographerLabel.text = photo.photographer
+        cell?.photographerTagLabel.text = photo.photographer_tag
+        if let url = URL(string: photo.src.landscape) {
+            let token = vm.loadImage(url: url) { (image) in
+                DispatchQueue.main.async {
+                    cell?.imageV.image = image
+                }
+            }
+            
+            cell?.onReuse = {
+                if let token = token {
+                    self.vm.cancel(token)
+                }
+            }
+        }
+        return cell ?? UITableViewCell()
     }
 }
