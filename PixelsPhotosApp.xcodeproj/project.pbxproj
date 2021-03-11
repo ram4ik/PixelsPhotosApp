@@ -21,6 +21,7 @@
 		95379F9125FA0F7500DB609F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9025FA0F7500DB609F /* Result.swift */; };
 		95379F9425FA0FDC00DB609F /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9325FA0FDC00DB609F /* APIError.swift */; };
 		95379F9725FA10CD00DB609F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9625FA10CD00DB609F /* APIClient.swift */; };
+		95379F9A25FA1A5C00DB609F /* PexelsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9925FA1A5C00DB609F /* PexelsClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		95379F9025FA0F7500DB609F /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		95379F9325FA0FDC00DB609F /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		95379F9625FA10CD00DB609F /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		95379F9925FA1A5C00DB609F /* PexelsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PexelsClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				95379F9025FA0F7500DB609F /* Result.swift */,
 				95379F9325FA0FDC00DB609F /* APIError.swift */,
 				95379F9625FA10CD00DB609F /* APIClient.swift */,
+				95379F9925FA1A5C00DB609F /* PexelsClient.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				95379F8825FA09F800DB609F /* Endpoint.swift in Sources */,
 				95379F5D25F9FE3C00DB609F /* AppDelegate.swift in Sources */,
+				95379F9A25FA1A5C00DB609F /* PexelsClient.swift in Sources */,
 				95379F7F25FA042D00DB609F /* PhotoFeedResult.swift in Sources */,
 				95379F5F25F9FE3C00DB609F /* SceneDelegate.swift in Sources */,
 				95379F8525FA085700DB609F /* PhotoSize.swift in Sources */,
