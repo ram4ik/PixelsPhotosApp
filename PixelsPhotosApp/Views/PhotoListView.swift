@@ -70,6 +70,17 @@ extension PhotoListView: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 200
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let photo = vm.getPhoto(at: indexPath.row)
+        delegate?.selectedPhoto(photo: photo)
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if indexPath.row == vm.count - 10 {
+            vm.loadPhotos()
+        }
+    }
 }
 
 extension PhotoListView: UITableViewDataSource {

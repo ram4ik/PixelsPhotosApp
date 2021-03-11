@@ -26,6 +26,7 @@
 		95379FA025FA291C00DB609F /* PhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F9F25FA291C00DB609F /* PhotoListView.swift */; };
 		95379FA325FA2C8A00DB609F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379FA225FA2C8A00DB609F /* PhotoCell.swift */; };
 		95379FA625FA351300DB609F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379FA525FA351300DB609F /* ImageLoader.swift */; };
+		95379FA925FA3B6C00DB609F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379FA825FA3B6C00DB609F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		95379F9F25FA291C00DB609F /* PhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListView.swift; sourceTree = "<group>"; };
 		95379FA225FA2C8A00DB609F /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		95379FA525FA351300DB609F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		95379FA825FA3B6C00DB609F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				95379F7A25FA006C00DB609F /* HomeViewController.swift */,
+				95379FA825FA3B6C00DB609F /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				95379F8525FA085700DB609F /* PhotoSize.swift in Sources */,
 				95379F7B25FA006C00DB609F /* HomeViewController.swift in Sources */,
 				95379F9125FA0F7500DB609F /* Result.swift in Sources */,
+				95379FA925FA3B6C00DB609F /* DetailViewController.swift in Sources */,
 				95379F8E25FA0BB700DB609F /* PhotoFeed.swift in Sources */,
 				95379F8B25FA0A9200DB609F /* API.swift in Sources */,
 				95379FA625FA351300DB609F /* ImageLoader.swift in Sources */,

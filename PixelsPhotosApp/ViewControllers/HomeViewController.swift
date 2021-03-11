@@ -39,7 +39,9 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: PhotoListItemDelegate {
     func selectedPhoto(photo: Photo) {
-        
+        let vc = DetailViewController()
+        vc.photo = photo
+        present(vc, animated: true, completion: nil)
     }
     
     
